@@ -1,5 +1,23 @@
 <?php 
 
+function compareNumbers ( $a , $b ) {
+    $results = false;
+
+    if( $a > $b ) {
+        $results = "a $a is greater than b $b";
+    } else if ($a < $b ) {
+        $results = "a $a is less then b $b";
+    } else {
+        $results = $a;
+    };
+
+    return $results;
+}
+
+var_dump( compareNumbers( 10, 20));
+var_dump( compareNumbers( 20, 10));
+var_dump( compareNumbers( 10, 10));
+
 function getLargestNumber( $a, $b ) {
     return $a > $b ? $a : $b;
 }
