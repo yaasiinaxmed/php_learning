@@ -9,3 +9,6 @@ Welcome to my PHP learning journey! This repository contains my practice files a
 - Learn control structures and functions
 - Build simple web applications
 - Practice best practices and coding standards
+- Build WordPress templates and themes
+- Develop WordPress plugins
+- Learn WordPress-specific PHP functions and hooks
